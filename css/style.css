@@ -2,18 +2,19 @@
 @import url(http://fonts.googleapis.com/css?family=Balthazar);
 
 html {
-  font-family: 'Balthazar', serif;
   background-image: url("../images/bg.jpg")
+}
+
+body {
+  font-family: 'Balthazar', serif;
 }
 
 h1 {
   color: white;
   background-color: black;
+  opacity: 0.5;
   font-size: 60px;
   font-family: 'Spinnaker', sans-serif;
-  border: 3px solid grey;
-  border-radius: 10px;
-  opacity: 0.5;
 }
 
 h4 {
