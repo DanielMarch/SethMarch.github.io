@@ -79,6 +79,10 @@ nav {
   margin-top: 15px;
 }
 
+#selected {
+  text-decoration: underline;
+}
+
 nav li {
   display: inline;
   font-size: 20px;
