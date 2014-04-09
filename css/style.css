@@ -120,3 +120,12 @@ h2 {
   padding: 10px;
   min-height: 690px;
 }
+
+.pic {
+  max-width: 225px;
+  height: auto;
+  margin-left: 455px;
+  margin-top: 115px;
+  position: fixed;
+  border: 5px solid black;
+}
