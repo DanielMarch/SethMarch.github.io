@@ -88,11 +88,12 @@ footer {
 	border-top: 1px solid black;
 	padding-top: 18px;
 	margin-top: 20px;
+  margin-left: 10px;
 }
 
 .contact {
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 0px;
   min-height: 670px;
 }
 
@@ -108,11 +109,14 @@ h2 {
   padding: 10px;
 }
 
-
 .about {
+  padding-left: 10px;
+}
+
+.grid_12 {
   margin-top: 10px;
+  margin-left: -330px;
   font-size: 24px;
-  text-align: left;
   padding: 10px;
-  min-height: 557px;
+  min-height: 690px;
 }
