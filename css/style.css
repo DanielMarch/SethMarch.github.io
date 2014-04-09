@@ -126,6 +126,6 @@ h2 {
   height: auto;
   margin-left: 455px;
   margin-top: 115px;
-  position: fixed;
   border: 5px solid black;
+  background-attachment: fixed;
 }
