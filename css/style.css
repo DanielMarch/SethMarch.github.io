@@ -9,25 +9,27 @@ body {
   font-family: 'Balthazar', serif;
 }
 
-h1 {
+h1, h4 {
+  text-align: center;
+  padding: 5px;
+}
+
+h1, h4, .navlink {
   color: rgba(255, 255, 255, 0.75);
   background-color: rgba(0, 0, 0, 0.70);
+}
+
+h1 {
   font-size: 60px;
   font-family: 'Spinnaker', sans-serif;
-  padding: 5px;
   margin: 40px 10px 20px 10px;
   letter-spacing: 3px;
-  text-align: center;
 }
 
 h4 {
   font-size: 30px;
-  color: rgba(255, 255, 255, 0.75);
-  border: 3px solid white;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.70);
+  border: 1px solid white;
   border-radius: 10px;
-  text-align: center;
   margin-top: 30px;
 }
 
@@ -38,6 +40,7 @@ ol {
 
 li {
   font-size: 30px;
+  list-style-type: disc;
 }
 
 a {
@@ -51,13 +54,11 @@ a:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.grid_12 {
+.grid_15 {
   min-height: 580px;
 }
 
 .navlink {
-  color: rgba(255, 255, 255, 0.75);
-  background-color: rgba(0, 0, 0, 0.70);
   text-decoration: none;
   padding: 4px;
 }
