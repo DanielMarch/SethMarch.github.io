@@ -156,6 +156,6 @@ h2 {
   max-width: 200px;
 }
 
-#projectimgs:hover {
+.projectimgs:hover {
   background: none;
 }
