@@ -139,3 +139,22 @@ h2 {
   border: 5px solid black;
   background-attachment: fixed;
 }
+
+#simple {
+  max-width: 150px;
+  height: auto;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#simplecode {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-top: 10px;
+  max-width: 150px;
+}
+
+#projectimgs:hover {
+  background: none;
+}
