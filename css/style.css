@@ -170,8 +170,16 @@ h2 {
   left: 160px;
 }
 
-#simple, #super {
-  max-width: 150px;
+#superbank {
+  position: relative;
+  bottom: 410px;
+  left: 315px;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+#simple, #super, #superbank {
+  width: 150px;
   height: 150px;
   border: 1px solid lightgrey;
 }
@@ -191,7 +199,13 @@ h2 {
   left: 205px;
 }
 
-#simplecode, #supercode {
+#superbankcode {
+  position: relative;
+  bottom: 400px;
+  left: 375px;
+}
+
+#simplecode, #supercode, #superbankcode {
   font-size: 20px;
   font-weight: bold;
   max-width: 155px;
