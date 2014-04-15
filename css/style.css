@@ -184,7 +184,7 @@ h2 {
   border: 1px solid lightgrey;
 }
 
-#simple:hover, #super:hover {
+#simple:hover, #super:hover, #superbank:hover {
   opacity: .75;
 }
 
