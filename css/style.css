@@ -178,13 +178,13 @@ h2 {
   margin-left: 60px;
 }
 
-#simple, #super, #superbank {
+#simple, #super, #superbank, #yahtzee, #yahtzeeindex {
   width: 150px;
   height: 150px;
   border: 1px solid lightgrey;
 }
 
-#simple:hover, #super:hover, #superbank:hover {
+#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover {
   opacity: .75;
 }
 
@@ -205,7 +205,31 @@ h2 {
   left: 375px;
 }
 
-#simplecode, #supercode, #superbankcode {
+#yahtzee {
+  position: relative;
+  bottom: 585px;
+  left: 550px;
+}
+
+#yahtzeecode {
+  position: relative;
+  bottom: 575px;
+  left: 560px;
+}
+
+#yahtzeeindex {
+  position: relative;
+  bottom: 380px;
+  left: 20px;
+}
+
+#yahtzeecodeindex {
+  position: relative;
+  bottom: 370px;
+  left: 35px;
+}
+
+#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex {
   font-size: 20px;
   font-weight: bold;
   max-width: 155px;
