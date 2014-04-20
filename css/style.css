@@ -178,13 +178,13 @@ h2 {
   margin-left: 60px;
 }
 
-#simple, #super, #superbank, #yahtzee, #yahtzeeindex {
+#simple, #super, #superbank, #yahtzee, #yahtzeeindex, #memory, #memoryindex{
   width: 150px;
   height: 150px;
   border: 1px solid lightgrey;
 }
 
-#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover {
+#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover, #memory:hover, #memoryindex:hover{
   opacity: .75;
 }
 
@@ -211,6 +211,18 @@ h2 {
   left: 550px;
 }
 
+#memory {
+  position: relative;
+  bottom: 759px;
+  left: 720px;
+}
+
+#memorycode{
+  position: relative;
+  bottom: 750px;
+  left: 735px;
+}
+
 #yahtzeecode {
   position: relative;
   bottom: 575px;
@@ -223,13 +235,25 @@ h2 {
   left: 20px;
 }
 
+#memoryindex{
+  position: relative;
+  left: 200px;
+  bottom: 555px;
+}
+
 #yahtzeecodeindex {
   position: relative;
   bottom: 370px;
   left: 35px;
 }
 
-#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex {
+#memorycodeindex{
+  position: relative;
+  bottom: 545px;
+  left: 215px;
+}
+
+#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex, #memorycode, #memorycodeindex{
   font-size: 20px;
   font-weight: bold;
   max-width: 155px;
