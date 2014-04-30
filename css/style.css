@@ -178,13 +178,13 @@ h2 {
   margin-left: 60px;
 }
 
-#simple, #super, #superbank, #yahtzee, #yahtzeeindex, #memory, #memoryindex{
+#simple, #super, #superbank, #yahtzee, #yahtzeeindex, #memory, #memoryindex, #weather{
   width: 150px;
   height: 150px;
   border: 1px solid lightgrey;
 }
 
-#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover, #memory:hover, #memoryindex:hover{
+#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover, #memory:hover, #memoryindex:hover, #weather:hover{
   opacity: .75;
 }
 
@@ -223,6 +223,18 @@ h2 {
   left: 735px;
 }
 
+#weather{
+  position: relative;
+  bottom: 740px;
+  left: 20px;
+}
+
+#weathercode{
+  position: relative;
+  bottom: 740px;
+  left: 30px;
+}
+
 #yahtzeecode {
   position: relative;
   bottom: 575px;
@@ -253,14 +265,14 @@ h2 {
   left: 215px;
 }
 
-#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex, #memorycode, #memorycodeindex{
+#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex, #memorycode, #memorycodeindex, #weathercode{
   font-size: 20px;
   font-weight: bold;
   max-width: 155px;
   padding: 1px;
 }
 
-#simplecode:hover, #supercode:hover {
+#simplecode:hover, #supercode:hover, #weathercode:hover{
   color: red;
 }
 
