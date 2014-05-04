@@ -178,13 +178,13 @@ h2 {
   margin-left: 60px;
 }
 
-#simple, #super, #superbank, #yahtzee, #yahtzeeindex, #memory, #memoryindex, #weather{
+#simple, #super, #superbank, #yahtzee, #yahtzeeindex, #memory, #memoryindex, #weather, #petsit{
   width: 150px;
   height: 150px;
   border: 1px solid lightgrey;
 }
 
-#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover, #memory:hover, #memoryindex:hover, #weather:hover{
+#simple:hover, #super:hover, #superbank:hover, #yahtzee:hover, #yahtzeeindex:hover, #memory:hover, #memoryindex:hover, #weather:hover, #petsit:hover{
   opacity: .75;
 }
 
@@ -235,6 +235,18 @@ h2 {
   left: 30px;
 }
 
+#petsit{
+  position: relative;
+  bottom: 915px;
+  left: 200px;
+}
+
+#petsitcode{
+  position: relative;
+  bottom: 915px;
+  left: 210px;
+}
+
 #yahtzeecode {
   position: relative;
   bottom: 575px;
@@ -265,14 +277,14 @@ h2 {
   left: 215px;
 }
 
-#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex, #memorycode, #memorycodeindex, #weathercode{
+#simplecode, #supercode, #superbankcode, #yahtzeecode, #yahtzeecodeindex, #memorycode, #memorycodeindex, #weathercode, #petsitcode{
   font-size: 20px;
   font-weight: bold;
   max-width: 155px;
   padding: 1px;
 }
 
-#simplecode:hover, #supercode:hover, #weathercode:hover{
+#simplecode:hover, #supercode:hover, #weathercode:hover, #petsitcode:hover{
   color: red;
 }
 
